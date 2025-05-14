@@ -3,7 +3,8 @@ export const settings = {
     canvas: {
         id: 'popcorn',
     },
-    sprite: "sprite--test.png",
+    //mettres le src pour avoir soit les popcorne || les corns
+    sprite: "sprite.png",
     popcorns: [
         {
             sx: 0,

@@ -16,7 +16,7 @@ export class Projectile extends DrawFrame implements iAnimatable {
     public hiddenNumber: number;
 
 
-    //creation du constructeru avec ses propreiter
+    //creation du constructor avec ses propreiter
     constructor(ctx: CanvasRenderingContext2D, canvas: HTMLCanvasElement, sprite: HTMLImageElement, frame: iFrame, rotation: number, hiddenNumber:number) {
         super(ctx, sprite, frame, rotation);
         this.canvas = canvas;

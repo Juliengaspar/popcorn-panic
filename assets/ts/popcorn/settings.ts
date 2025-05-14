@@ -1,10 +1,9 @@
-
 export const settings = {
     canvas: {
         id: 'popcorn',
     },
     //mettres le src pour avoir soit les popcorne || les corns
-    sprite: "sprite.png",
+    sprite: "sprite--test.png",
     popcorns: [
         {
             sx: 0,
@@ -140,17 +139,21 @@ export const settings = {
     ],
     projectiles: {
         magnitude: {
+            //a quelle distand les sprite peuvent aller vers le haut
             min: 1,
             max: 6
         },
         angle: {
+            //pour modifier son angle dans son lancer aleatoirement
             min: -0.5,
             max: 0.5
         },
+        //acceleter +vite lors de sa propultion ou - vite
         acceleration: {
             min: 0.01,
             max: 0.05
         },
+        //rotation des image + = + rapide et - = - moins rapide
         rotation: 0.1
     },
 }

@@ -52,6 +52,7 @@ export class Game {
                     if (projectile.hiddenNumber < 0) {
                         this.animation.stop();
                     } else {
+                        //savoir quand on touche un popCorns et sa position
                         console.log("À vous de jouer !! ")
                     }
 
